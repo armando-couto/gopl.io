@@ -15,6 +15,11 @@ import (
 	"gopl.io/ch4/github"
 )
 
+// Teste:
+// cd ch4/issuesreport/
+// go build main.go
+// ./main repo:golang/go is:open json decoder
+
 //!+template
 const templ = `{{.TotalCount}} issues:
 {{range .Items}}----------------------------------------
