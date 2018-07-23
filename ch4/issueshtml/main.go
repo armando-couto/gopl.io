@@ -16,6 +16,10 @@ import (
 //!+template
 import "html/template"
 
+// Teste:
+// cd ch4/issueshtml/
+// go build main.go
+// ./main repo:golang/go commenter:gopherbot json encoder >issues.html
 var issueList = template.Must(template.New("issuelist").Parse(`
 <h1>{{.TotalCount}} issues</h1>
 <table>
